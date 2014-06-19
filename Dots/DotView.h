@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
 
+// add a comment from bastien
+
 @interface DotView : UIView
 
 +(DotView*)randomDotView;
