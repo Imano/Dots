@@ -35,7 +35,8 @@
 
 +(void)arrangeDotsRandomlyInView:(UIView*)view {
     for(UIView* subView in view.subviews) {
-        subView.center = CGPointMake((CGFloat)(arc4random() % (int)view.bounds.size.width) +1, (arc4random() % (int)view.bounds.size.height) +1);
+        
+        subView.center = CGPointMake((CGFloat)(arc4random() % (int)view.bounds.size.width-kMAXRADIUS*2.0) +kMAXRADIUS, (arc4random() % (int)view.bounds.size.height-kMAXRADIUS*2.0) +kMAXRADIUS);
     }
 }
 
