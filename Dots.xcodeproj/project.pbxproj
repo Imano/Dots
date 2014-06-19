@@ -21,6 +21,7 @@
 		E75ED8581953356D00D1321B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75ED83A1953356D00D1321B /* UIKit.framework */; };
 		E75ED8601953356D00D1321B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75ED85E1953356D00D1321B /* InfoPlist.strings */; };
 		E75ED8621953356D00D1321B /* DotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75ED8611953356D00D1321B /* DotsTests.m */; };
+		E75ED86D1953358500D1321B /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75ED86C1953358500D1321B /* DotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E75ED85D1953356D00D1321B /* DotsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DotsTests-Info.plist"; sourceTree = "<group>"; };
 		E75ED85F1953356D00D1321B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E75ED8611953356D00D1321B /* DotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotsTests.m; sourceTree = "<group>"; };
+		E75ED86B1953358500D1321B /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		E75ED86C1953358500D1321B /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		E75ED83C1953356D00D1321B /* Dots */ = {
 			isa = PBXGroup;
 			children = (
+				E75ED86B1953358500D1321B /* DotView.h */,
+				E75ED86C1953358500D1321B /* DotView.m */,
 				E75ED8451953356D00D1321B /* AppDelegate.h */,
 				E75ED8461953356D00D1321B /* AppDelegate.m */,
 				E75ED8481953356D00D1321B /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				E75ED84D1953356D00D1321B /* ViewController.m in Sources */,
 				E75ED8471953356D00D1321B /* AppDelegate.m in Sources */,
+				E75ED86D1953358500D1321B /* DotView.m in Sources */,
 				E75ED8431953356D00D1321B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
